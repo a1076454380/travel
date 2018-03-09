@@ -1,0 +1,72 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+button {
+	border: 0;
+	cursor: pointer;
+}
+
+a {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+a:hover img {
+	transform: scale(1.1);
+	transition: all 1s;
+}
+
+input::input-placeholder {
+	color: #959595;
+	font-size: 14px;
+}
+
+input::-webkit-input-placeholder {
+	color: #959595;font-size: 14px;
+}
+
+input:-moz-placeholder {
+	color: #959595;font-size: 14px;
+}
+
+input::-moz-placeholder {
+	color: #959595;font-size: 14px;
+}
+
+input:-ms-input-placeholder {
+	color: #959595;font-size: 14px;
+}
+.clear{clear: both;}
+button:hover{opacity: 0.7;}
+.pull-left{float: left;}
+.pull-right{float: right;}
+a:hover{
+	color: #11a13a!important;
+}
+footer ul li{
+	float: left;
+}
+#ul li{
+	float: left;
+}
+.Scang li{
+	float: left;
+}
+#nav li{
+	float: left;
+}
+.clear{
+	clear: both;
+}
+#mydatepicker2{
+	background: url(../images/Rili_03.png) no-repeat;
+	background-position-y: center;
+	background-position-x: 170px;
+	width: 185px;
+}

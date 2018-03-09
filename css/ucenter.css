@@ -1,0 +1,1227 @@
+body{
+	color: #585858;
+}
+#fath{
+	width:100%;
+	height: auto;
+	margin: 0 auto;
+}
+/*头部*/
+header{
+	width: 100%;
+	margin-bottom: 15px;
+	height: auto;
+}
+#tone{
+	border-bottom: 1px solid rgb(238,238,238);
+	width: 100%;
+	height: 30px;
+	box-sizing: border-box;
+	background: rgb(248,248,248);
+}
+#ToOne{
+	width: 1200px;
+	margin: 0 auto;
+	height: 30px;
+	line-height: 30px;
+	color: #747474;
+	font-size: 11px;
+}
+#ToOne .pull-left a,#ToOne span{
+	padding: 2px;
+	color: #ff6600;
+	font-size: 11px;
+}
+.Tnav{
+	float: right;
+	width: auto;
+	height: 30px;
+	padding-left:10px ;
+}
+.Xlia{
+	position: relative;
+	border-right: 1px solid rgb(238,238,238);
+	padding-right: 25px;
+}
+.Xlia a{
+	color: #484848;
+}
+.Xlia img{
+	position: absolute;
+	top: 12px;
+	right: 5px;
+}
+.Tnav .phone{
+	display: inline-block;
+	padding-top: 2px;
+}
+.Xyin{
+	padding-bottom: 10px;
+	width: 100%;
+	height: auto;
+	background: rgb(248,248,248);
+	z-index: 999;
+	position: absolute;
+	left: 0;
+	top: 29px;
+	border: 1px solid rgb(238,238,238);
+	display: none;
+}
+.Xyin li{
+	width: 100%;
+	height: 20px;
+	padding-left: 5px;
+}
+.Xlia:hover .Xyin{
+	display: block;
+}
+#Ttwo{
+	overflow: hidden;
+	width: 1200px;
+	height: 100px;
+	margin: 0 auto;
+}
+#Ttwo .pull-left:nth-of-type(1){
+	padding-top: 18px;
+	width: 350px;
+	height: 100px;
+}
+#Ttwo .pull-left:nth-of-type(1) img{
+	width: 150px;
+}
+.tsearch{
+	width: 580px;
+	height: 100px;
+	line-height: 100px;
+}
+.tsearch form{
+	position: relative;
+	margin-top: 30px;
+	display: block;
+	width: 490px;
+	height: 40px;
+	border: 2px solid #ff6600;
+}
+.tsearch input[type="text"]{
+	padding-left: 8px;
+	display: block;
+	width: 380px;
+	height: 40px;
+	border: 0;
+	float: left;
+}
+.tsearch input[type="submit"]{
+	float: right;
+	text-align: center;
+	display: block;
+	width:100px;
+	height: 40px;
+	border: 0;
+	color: white;
+	background: #ff6600;;
+}
+#Tjian{
+	position: absolute;
+	width: auto;
+	height: 40px;
+	right:105px ;
+	top: 0;
+	line-height: 40px;
+}
+#Tjian a{
+	display: inline-blockblock;
+	width: auto;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	background: rgb(243,243,243);
+	color: #404040;
+	border-radius: 15px;
+	font-size: 12px;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.Rxian{
+	width: 270px;
+	height: 100px;
+}
+.Rxian h3{
+	padding-top: 30px;
+	display: block;
+	font-size: 18px;
+	color: #ff6600;
+}
+.Rxian h3 img{
+	margin-right: 10px;
+	float: left;
+}
+.Rxian span{
+	font-weight: 600;
+	font-size: 12px;
+	color: #7d7d7d;
+}
+#Tthree{
+	position: relative;
+	width: 100%;
+	height: 50px;
+	background: rgb(45,187,85);
+}
+.mount{
+	position: absolute;
+	top: -25px;
+	z-index: 6;
+	left: 1010px;
+}
+#Thmain{
+	position: relative;
+	width: 1200px;
+	height: 50px;
+	margin: 0 auto;
+}
+#xiala{
+	position: relative;
+	width: 195px;
+	height: 50px;
+	background: #ff6600;
+}
+.Xa{
+	padding-left: 18px;
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	color: white;
+}
+#xiala a span{
+	padding-left: 5px;
+	font-size: 12px;
+}
+#xiala:hover #xla{
+	display: block;
+}
+#xla{
+	z-index: 999;
+	display: none;
+	width: 100%;
+	height: auto;
+	background: white;
+	box-sizing: border-box;
+	position: absolute;
+	top: 50px;
+	left: 0;
+	border: 1px solid gainsboro;
+}
+#xla li{
+	width: 100%;
+	height: auto;
+	padding-top: 5px;
+	border-bottom:1px solid gainsboro ;
+}
+.Bti{
+	overflow: hidden;
+	padding-left: 10px;
+	padding-top: 10px;
+	display: block;
+	width: 100%;
+	height: 20px;
+	font-size: 14px;
+	color: #666666!important;
+}
+.Bti img{
+	margin-right: 5px;
+	float: left;
+}
+#Bmain{
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 8px;
+	width: 100%;
+	height:auto
+}
+.Bmain{
+	margin: 0;
+	padding: 0;
+	float: left;
+	display: block;
+	height: 25px;
+	line-height: 25px;
+	color: #999999;
+	font-size: 12px;
+	padding-right: 15px;
+}
+#nav{
+	width: auto;
+	height: 50px;
+}
+#nav li{
+	height: 50px;
+	padding-left: 15px;
+	padding-right: 15px;
+	line-height: 15px;
+}
+#nav li a{
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	color: white;
+}
+#nav li:hover{
+	background: #11a13a;
+}
+#nav li:hover a{
+	color: white!important;
+}
+/*底部*/
+footer{
+	background: rgb(242,242,242);
+	margin-top: 100px;
+	padding-top: 30px;
+	text-align: center;
+	width: 100%;
+	height: auto;
+}
+footer #ul{
+	margin: 0 auto;
+	width: 800px;
+	height: auto;
+}
+#ul li{
+	position: relative;
+	padding-right: 155px;
+}
+.Qiu{
+	width: 30px;
+	position: absolute;
+	top: 0;
+	left: -40px;
+}
+#ul li:last-of-type{
+	padding: 0!important;
+}
+
+footer h5{
+	color: gray;
+	font-weight: 300;
+	font-size: 16px;
+}
+footer p{
+	color:#959595;
+	font-size: 12px;
+}
+footer p img{
+	float: left;
+	margin-right: 3px;
+}
+footer ul{
+	padding-top: 30px;
+	width: 645px;
+	height: auto;
+	margin: 0 auto;
+}
+footer ul a{
+	font-size: 12px;
+	color: #959595;
+}
+footer ul li{
+	position: relative;
+	top: 30px;
+	font-size: 12px;
+	color: #959595;
+	width: auto;
+	height: auto;
+	padding: 3px;
+}
+#Sdiv{
+	padding-top: 30px;
+	width: 335px;
+	height: auto;
+	margin: 0 auto;
+}
+#province{
+	color: #959595;
+	float: left;
+	width: 170px;
+	height: 35px;
+	border: 1px solid #959595;
+}
+#city{
+	color: #959595;
+	float: right;
+	width: 130px;
+	height: 35px;
+	border: 1px solid #959595;
+}
+option{
+	color: #959595;
+	font-size: 14px;
+}
+/*主体部分开始*/
+#Cmain{
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+}
+/*主体左侧部分开始*/
+#pack{
+	padding-bottom: 15px;
+	float: left;
+	width: 190px;
+	height: auto;
+	background: white;
+	border: 1px solid rgb(220,220,220);
+}
+#Phead{
+	margin-left: -5px;
+	font-size: 16px;
+	color: #323232;
+	width: 200px;
+	height: 45px;
+	text-align: center;
+	line-height: 45px;
+	background: url(../images/ucenter03_03.png) no-repeat;
+	background-size: 200px 45px;
+}
+#Phead a{
+	font-size: 16px;
+	color: #323232;
+}
+#pack dt{
+	position: relative;
+	padding-top: 18px;
+	padding-left: 60px;
+	color: #646464;
+	font-size: 16px;
+}
+#pack dt img{
+	position: absolute;
+	top: 27px;
+	left: 40px;
+}
+#pack dt a{
+	color: #646464;
+	font-size: 16px;
+}
+#pack dd{
+	padding-top: 18px;
+	padding-left: 60px;
+	color: #969696;
+	font-size: 14px;
+}
+#pack dd a{
+	color: #969696;
+	font-size: 14px;
+}
+/*主体右侧开始*/
+#center{
+	width: 995px;
+	float: right;
+	height: auto;
+	font-size: 14px;
+}
+#Zhao{
+	width: 100%;
+	height: 185px;
+	background: url(../images/ucenter05_03.png) no-repeat;
+	background-size: 100% 185px;
+}
+#Zleft{
+	float: left;
+	width: 560px;
+	height: 185px;
+}
+#Zright{
+	float: right;
+	height: 185px;
+	width: 410px;
+}
+#zleft{
+	padding-top: 35px;
+	margin-left: 55px;
+	float: left;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+#zleft img{
+	width: 100%;
+}
+#zleftt{
+	padding-top: 35px;
+	padding-left: 10px;
+	float: left;
+	width: auto;
+	height: auto;
+}
+#zleftt h3 a{
+	font-weight: Regular;
+	font-size: 18px;
+	color: black;
+}
+#zleftt span{
+	padding-top: 15px;
+	display: block;
+	width: auto;
+	height: auto;
+}
+#Aquan a,#Aquan div,#Aquan span{
+	display: inline-block;
+}
+#Aquan a{
+	font-size: 12px;
+	color: #005ea7;
+}
+#Aquan span{
+	font-size: 12px;
+	color: #fc9836;
+}
+#Qwai{
+	padding: 0;
+	width: 125px;
+	height: 10px;
+	background: rgb(217,217,217);
+}
+#Qnei{
+	display: block;
+	margin: 0;
+	width: 60%;
+	height: 10px;
+	background: rgb(252,152,54);
+}
+#Zright li{
+	padding-left: 30px;
+	padding-top: 30px;
+	float: left;
+	width: 60px;
+	height: auto;
+}
+#Zright a{
+	color: #969696;
+	font-size: 14px;
+	display: block;
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+#Zright a img{
+	width: 100%;
+	padding-bottom: 10px;
+}
+#order{
+	margin-top: 30px;
+	width: 100%;
+	height: auto;
+	border: 1px solid gainsboro;
+	border-top: 2px solid rgb(78,207,91);
+}
+#Otop{
+	width: 100%;
+	height: 50px;
+	background: rgb(246,246,246);
+}
+#Ddan{
+	display: block;
+	float: left;
+	line-height: 50px;
+	color: #000000;
+	font-size: 14px;
+}
+#Ddan img{
+	float: left;
+	margin-top: 18px;
+	margin-left: 10px;
+	margin-right: 13px;
+}
+#Otop ul{
+	padding-right: 25px;
+	margin-top: 20px;
+	width: auto;
+	height: 15px;
+	
+	float: right;
+}
+#Otop li{
+	padding-right: 25px;
+	padding-left: 25px;
+	float: right;
+	border-right:1px solid gainsboro;
+	height: 15px;
+	line-height: 10px;
+}
+#Otop li:first-of-type{
+	border: 0;
+}
+#Otop a{
+	font-size: 12px;
+	color: #646464;
+}
+.Omain{
+	width: 970px;
+	height: auto;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	border-bottom: 1px dashed gainsboro;
+	margin: 0 auto;
+}
+.Omain li{
+	height: 100px;
+	overflow: hidden;
+	float: left;
+}
+.Omain .one{
+	width: 150px;
+}
+.Omain .one img{
+	width: 100%;
+	height: 100%;
+}
+.Omain .two{
+	padding-left: 20px;
+	width: 420px;
+}
+.two h6 a{
+	width: 330px;
+	font-weight:200;
+	display: block;
+	font-size: 14px;
+	line-height: 20px;
+	color: #585858;
+	height: 60px;
+	overflow: hidden;
+}
+.Omain .two h6 a span{
+	font-weight: bold;
+}
+#jia{
+	display: block;
+	padding-top: 10px;
+	color: #ff5741;
+	font-size: 25px;
+}
+.Three{
+	width: 65px;
+	line-height: 175px;
+}
+.Three a,.four a{
+	color: #000000;
+	font-size: 14px;
+}
+.four{
+	width: 90px;
+	line-height: 175px;
+}
+.five{
+	width: 60px;
+	text-align: center;
+}
+.five h6{
+	padding-top: 5px;
+}
+.five h6 a{
+	color: #ffa718;
+	font-size: 16px;
+}
+.five .dao{
+	color:gray;
+	font-size: 10px;
+	padding-top:13px ;
+}
+.five .dao a{
+	color:rgb(229,65,29);
+	font-size: 14px;
+}
+.Xqing a{
+	font-size: 14px;
+	color: black;
+}
+.sixe{
+	box-sizing: border-box;
+	width: 145px;
+	padding-left: 44px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.Qxiao {
+	padding-top: 30px;
+	font-size: 14px;
+	color: black;
+	display: block;
+}
+.Qxiao-list{
+	font-size: 14px;
+	color: black;
+	display: block;
+}
+
+.Gmai {
+	margin-top: 15px;
+	width: 95px;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	color: black;
+	color: #ff5000;
+	border:1px solid #ff5000;
+	display: block;
+	border-radius: 5px;
+	box-sizing:border-box ;
+}
+.Gmai-list{
+	margin-top: 8px;
+}
+.Gmai:hover{
+	border: 1px solid rgb(78,207,91);
+}
+.Scang{
+	box-sizing: border-box;
+	width: 100%;
+	height: auto;
+	border: 1px solid gainsboro;
+	margin-top: 10px;
+	padding: 15px 5px 5px 10px;
+	padding-bottom: 10px;
+}
+.Stop{
+	box-sizing: border-box;
+	width: 100%;
+	height: 20px;
+	border-left:2px solid  rgb(78,207,91);
+	padding-left: 5px;
+	line-height: 20px;
+	font-size: 14px;
+}
+.Scang ul{
+	width: 110%;
+}
+.Scang li{
+	margin-top: 15px;
+	padding-bottom: 5px;
+	
+	overflow: hidden;
+	width: 230px;
+	height: auto;
+	margin-right:15px;
+	overflow: hidden;
+	border: 1px solid gainsboro;
+}
+.Scang li img{
+	width: 100%;
+	height: 140px;
+}
+.Scang p a{
+	padding-left: 10px;
+	color: black;
+	font-size: 12px;
+}
+.Scang span a{
+	padding-left: 10px;
+	color: #ff5741;
+	font-size: 14px;
+}
+.Scang span{
+	font-size: 10px;
+}
+/*个人资料*/
+#center .title{
+	font-size: 14px;
+	height: 20px;
+	line-height: 20px;
+	border-left: 3px solid rgb(45,187,85);
+	padding-left: 5px;
+	box-sizing: border-box;
+}
+#center input{
+	padding-left: 15px;
+	box-sizing: border-box;
+}
+.avatar{
+	width: 100%;
+	margin:15px 0 0 45px;
+	height: 105px;
+}
+.avatar-main{
+	padding-top: 10px;
+}
+.avatar .avatar-title{
+	font-size: 14px;
+}
+.avarat-img{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	overflow: hidden;
+}
+.avarat-img img{
+	width: 80px;
+	height: 80px;
+}
+.avatar-text{
+	display: inline-block;
+	position: relative;
+	top: -15px;
+}
+.green{
+	color: rgb(45,187,85);
+	margin-left: 15px;
+}
+.inform-group{
+	margin:15px 0 0 45px;
+	display: flex;
+}
+
+.name-group{
+	margin-right: 34px;
+}
+.name-title{
+	display: block;
+	position: relative;
+	padding-bottom: 15px;
+}
+.name-title span{
+	display: block;
+	position: absolute;
+	left: -14px;
+	color: #ff0101;
+}
+
+.name-input input{
+	width: 255px;
+	height: 40px;
+	border: 1px solid rgb(240,240,240);
+}
+.iphone{
+	flex-direction: column;
+}
+.sex-main input{
+	margin-right: 5px;
+	position: relative;
+	top: 2px;
+}
+.sex-main label{
+	margin-right: 157px;
+}
+.data-main{
+	display: flex;
+}
+.selece-group{
+	margin-right: 17px;
+	overflow: hidden;
+	width: 168px;
+	height: 42px;
+	border: 1px solid rgb(240,240,240);
+}
+.selece-group select{
+	display: block;
+	width: 168px;
+	height: 42px;
+	border: 0;
+}
+.biginput{
+	width: 196px;
+}
+.dl-btn{
+	padding-left: 0!important;
+	width: 170px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	border: 0;
+	margin-right: 28px;
+}
+.submit{
+	background: rgb(256,154,2);
+	color: white;
+}
+.reset{
+	background: rgb(246,246,246);
+	color: #585858;
+}
+input:hover,.selece-group:hover{
+	border: 1px solid rgb(45,187,85);
+}
+
+/*修改密码*/
+.subtitle{
+	font-size: 12px;
+	color: #b1b0b0;
+}
+.timer{
+	line-height: 12px;
+	height: 24px;
+	display: block;
+	/*white-space: nowrap;*/
+}
+/*订单列表*/
+.list-five{
+	line-height: 75px;
+}
+.four .red{
+	font-size: 18px;
+	color: #ff5741;
+}
+.four-list{
+	line-height: 75px;
+}
+.one-list{
+	width: 110px!important;
+}
+.Omain-list li{
+	height: 75px!important;
+}
+.two-list{
+	width: 325px!important;
+	padding-left: 15px!important;
+}
+.two-list .text,.two-list a{
+	width: 325px!important;
+	display: block;
+	color: #585858;
+	font-size: 14px;
+}
+.two-list .text{
+	margin-top: 19px;
+	line-height: 15px;
+	height: 30px;
+	overflow: hidden;
+}
+.Three-list{
+	width: 110px;
+	line-height: 75px;
+	text-align: center;
+}
+.list-five{
+	width: 75px;
+}
+.list-five h6{
+	padding-top: 0;
+}
+.data-list{
+	line-height: 75px;
+	width: 123px;
+}
+.sixe-list{
+	width: 100px!important;
+	padding: 0!important;
+}
+.checks{
+	width: 24px;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+.checks input{
+	position: absolute;
+	opacity: 0;
+	z-index: -1;
+}
+.checks label{
+	position: relative;
+	z-index: 10;
+	display: block;
+	width: 11px;
+	height: 11px;
+	border: 1px solid #dcdcdc;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.check-label span{
+	display: block;
+	width: 7px;
+	height: 7px;
+	background: #42b312;
+}
+.Omain-list{
+	width: 100%!important;
+}
+.top-list{
+	display: flex;
+	font-size: 14px;
+}
+.top-list div{
+	height: 50px;
+	line-height: 50px;
+}
+.list01{
+	margin-left: 48px;
+}
+.list02{
+	margin-left: 410px;
+}
+.list03{
+	margin-left: 63px;
+}
+.list04{
+	margin-left: 72px;
+}
+.list05{
+	margin-left: 57px;
+}
+.list06{
+	margin-left: 62px;
+}
+.ckeckall{
+	line-height: 75px;
+}
+.ckeckall a{
+	line-height: 12px;
+	font-size: 12px;
+	display: inline-block;
+	border: 1px solid #8f8e8e;
+	color: #8F8E8E;
+	border-radius: 8px;
+	margin-left: 16px;
+	padding: 3px;
+}
+.order-nav{
+	display: flex;
+}
+.order-nav a{
+	display: block!important;
+	height: 58px;
+	line-height: 58px;
+	font-size: 18px;
+	color: rgb(25,30,31);
+	padding-left: 23px;
+	padding-right: 23px;
+}
+.order-nav a span{
+	padding-left: 7px;
+	color: rgb(45,187,85);
+}
+.order-list{
+	border-top: 1px solid gainsboro!important;
+	margin: 0!important;
+}
+.nav-active{
+	color: rgb(45,187,85)!important;
+	border-bottom: 2px solid rgb(45,187,85)!important;
+}
+.Omain:last-of-type{
+	border: 0!important;
+}
+.next{
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	position: relative;
+	top: -20px;
+}
+.next ul{
+	display: flex;
+	height: 28px;
+	line-height: 28px;
+}
+.next li{
+	margin-right: 9px;
+}
+.next a{
+	display: block;
+	height: 28px;
+	line-height: 28px;
+	padding-left: 9px;
+	padding-right: 9px;
+	font-size: 12px;
+	color: #404040;
+	border: 1px solid rgb(221,221,221);
+}
+.next input{
+	padding: 0!important;
+	font-size: 12px;
+	color: #404040;
+	width: 28px;
+	height: 28px;
+	border: 1px solid rgb(221,221,221);
+	text-align: center;
+}
+.next-active{
+	background: rgb(45,187,85)!important;
+	color: white!important;
+	border: 0!important;;
+}
+/*订单详情*/
+.detail-group{
+	width: 100%;
+	height: auto;
+	border: 1px solid #f6f6f6;
+	border-top: 1px solid rgb(45,187,85);
+}
+.detail-title{
+	width: 100%;
+	height: 47px;
+	line-height: 47px;
+	display: flex;
+	background: #f6f6f6;
+	font-weight: bold;
+}
+.detail-avatar{
+	width: 35px;
+	margin-left: 9px;
+	margin-right: 11px;
+}
+.detail-content{
+	width: 100%;
+	height: auto;
+}
+.order-details{
+	border: 1px solid #ff6600!important;
+	background: #fefafa;
+	margin-bottom: 10px;
+}
+.order-details .detail-title{
+	background: #fefafa;
+}
+.detail-content{
+	display: flex;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	align-items: center;
+}
+.detail-left{
+	width: 702px;
+	height: 102px;
+	border-right: 1px solid #ff6600;
+}
+.detail-right{
+	width: 280px;
+	height: 102px;
+}
+.left-group{
+	font-size: 12px;
+	width: 100%;
+	line-height: 30px;
+	display: flex;
+}
+.left-name{
+	width: 105px;
+	text-align: right;
+}
+.left-text{
+	padding-left: 17px;
+	box-sizing: border-box;
+}
+.total-money{
+	width: 100%;
+	height: 26px;
+	align-items: flex-end;
+	display: flex;
+	justify-content: center;
+	font-size: 16px;
+	color: #666666;
+}
+.total-money span{
+	font-size: 30px;
+	color: #ff6600;
+	margin-left: 16px;
+	line-height: 30px;
+}
+.detail-type{
+	width: 280px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 9px;
+}
+.type-item{
+	width: 140px;
+	height: 23px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	line-height: 23px;
+	overflow: hidden;
+}
+.detail-main{
+	color: #666666;
+	font-size: 14px;
+	width: 950px;
+	height: auto;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+.contact{
+	margin-right: 111px;
+}
+.contact:first-of-type{
+	margin-left: 17px;
+}
+.tourists-group{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+	border-bottom: 1px dashed #666666;
+}
+.tourists-group:last-of-type{
+	border: 0!important;
+	margin-bottom: 0px!important;
+}
+.tourists{
+	margin-bottom: 20px;
+}
+.tourists:nth-of-type(5n-4){
+	width: 198px;
+	padding-left: 17px;
+	box-sizing: border-box;
+}
+.tourists:nth-of-type(5n-3){
+	width: 169px;
+}
+.tourists:nth-of-type(5n-2){
+	width: 229px;
+}
+.tourists:nth-of-type(5n-1){
+	width: 230px;
+}
+.pay-main{
+	width: 100%;
+	height: auto;
+}
+.pay{
+	margin-left: 17px;
+	margin-bottom: 10px;
+}
+.pay span{
+	color: #ff6600;
+}
+.insurance-wrapper{
+	width: 100%;
+	margin: 0 17px 0 17px;
+}
+.insurance-title{
+	font-size: 14px;
+	color: #666666;
+	font-weight: bold;
+}
+.insurance-main{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+.insurance-main li{
+	list-style-type: decimal!important;
+	width: 900px;
+	font-size: 14px;
+	color: #666666;
+	line-height: 20px;
+}
+.operation{
+	display: flex;
+	justify-content: center;
+}
+.operation a{
+	display: block;
+	width: 150px;
+	height: 40px;
+	color: white;
+	background: #ff6600;
+	text-align: center;
+	line-height: 40px;
+	margin: 47px 13px;
+}

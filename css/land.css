@@ -1,0 +1,261 @@
+a{
+	color: #666666;
+}
+a:hover{
+	color: #11a13a;
+}
+#main{
+	overflow: hidden;
+	width: 100%;
+	min-width: 1200px;
+	height: auto;
+	margin: 0 auto;
+}
+#head{
+	width: 1200px;
+	height: 90px;
+	margin: 0 auto;
+}
+#head div{
+	float: left;
+	line-height: 90px;
+}
+.hone{
+	width: 150px;
+	height: 90px;
+}
+.hone img{
+	margin-top: 15px;
+	width: 100%;
+}
+.htwo{
+	padding-left: 44px;
+	width: auto;
+	height: 90px;
+	line-height: 90px;
+}
+.htwo img{
+	float: left;
+	height: 38px;
+	margin-top: 32px;
+}
+.htwo a{
+	font-size: 18px;
+	line-height: 100px;
+	display: inline-block;
+	padding-left: 10px;
+}
+#action{
+	transition: all 2s; 
+	padding-top: 50px;
+	padding-bottom: 30px;
+	width: 100%;
+	height: auto;
+	background: url(../images/Lyou2_02.png) no-repeat;
+	background-size:cover ;
+}
+#form{
+	padding: 10px;
+	display: block;
+	width: 360px;
+	height: auto;
+	background: white;
+	margin-left: 53.5%;
+}
+#Dfang{
+	transition: all 2s; 
+	width: 330px;
+	height: 70px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+#Dfang div{
+	transition: all 1s; 
+	float: left;
+	width: 50%;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	border-bottom: 2px solid #959595;
+}
+#Dfang a{
+	transition: all 1s; 
+}
+#Dfang div:first-of-type{
+	border-bottom: 2px solid #11a13a;
+}
+#Dfang div:first-of-type a{
+	color: #11a13a;
+}
+#Pland{
+	display: none;
+}
+input{
+	padding-left: 5px;
+	font-size: 14px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 30px;
+	width: 330px;
+	height: 40px;
+	border: 1px solid rgb(156,156,156);
+}
+#Wji{
+	width: 330px;
+	margin: 0 auto;
+	color: #959595;
+	font-size: 12px;
+	height: 30px;
+	line-height: 30px;
+	text-align: right;
+}
+input[type="submit"]{
+	margin: 0 auto;
+	width: 330px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	color: white;
+	border: 0;
+	background: #11a13a;
+}
+#QQ{
+	padding-left: 55px;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 25px;
+	width: 330px;
+	height: auto;
+	margin: 0 auto;
+}
+#QQ ul{
+	width: auto;
+	height: auto;
+	margin: 0 auto;
+}
+#QQ li{
+	padding-left: 35px;
+	width: 40px;
+	height: 40px;
+	float: left;
+}
+#QQ li img{
+	width: 100%;
+}
+input:hover{
+	opacity: 0.7;
+}
+#Zce{
+	width: 330px;
+	margin: 0 auto;
+	height: auto;
+	font-size: 14px;
+	color: #959595;
+}
+#Zce a{
+	color: #11a13a;
+}
+footer{
+	padding-top: 60px;
+	text-align: center;
+	width: 100%;
+	height: auto;
+}
+footer #ul{
+	margin: 0 auto;
+	width: 800px;
+	height: auto;
+}
+#ul li{
+	position: relative;
+	padding-right: 155px;
+}
+.Qiu{
+	width: 30px;
+	position: absolute;
+	top: 0;
+	left: -40px;
+}
+#ul li:last-of-type{
+	padding: 0!important;
+}
+footer h5{
+	color: gray;
+	font-weight: 300;
+	font-size: 16px;
+}
+footer p{
+	color:#959595;
+	font-size: 12px;
+}
+footer p img{
+	margin-right: 3px;
+}
+footer ul{
+	padding-top: 30px;
+	width: 645px;
+	height: auto;
+	margin: 0 auto;
+}
+footer ul a{
+	font-size: 12px;
+	color: #959595;
+}
+footer ul li{
+	font-size: 12px;
+	color: #959595;
+	width: auto;
+	height: auto;
+	padding: 3px;
+}
+#Sdiv{
+	padding-top: 30px;
+	width: 335px;
+	height: auto;
+	margin: 0 auto;
+}
+.Sbor{
+	position: relative;
+	border: 1px solid #959595;
+	width: 170px;
+	height: 35px;
+	float: left;
+	overflow: hidden;
+}
+.Fxia{
+	top: 0;
+	position: absolute;
+	z-index: 999;
+	right: 0;
+	width: 20px;
+	height: 35px;
+	background: rgb(247,247,247);
+	text-align: center;
+	line-height: 30px;
+}
+#province{
+	color: #959595;
+	float: left;
+	width: 170px;
+	height: 36px;
+	border: 0;
+}
+.city{
+	position: relative;
+	float: right;
+	width: 130px;
+	height: 35px;
+	overflow: hidden;
+	border: 1px solid #959595;
+}
+#city{
+	
+	height: 35px;
+	width: 130px;
+	color: #959595;
+	border: 0;
+}
+option{
+	border: 0;
+	font-size: 14px;
+}
